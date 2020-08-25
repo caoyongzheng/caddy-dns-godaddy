@@ -3,7 +3,7 @@ package godaddy
 import (
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
-	godaddys "github.com/caoyongzheng/libdns-godaddy"
+	godaddy "github.com/caoyongzheng/libdns-godaddy"
 )
 
 // Provider wraps the provider implementation as a Caddy module.

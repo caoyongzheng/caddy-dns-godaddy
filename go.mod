@@ -1,6 +1,6 @@
 module github.com/caoyongzheng/caddy-dns-godaddy
 
-go 1.15
+go 1.14
 
 require (
 	github.com/caddyserver/caddy/v2 v2.1.1
