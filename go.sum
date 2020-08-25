@@ -118,6 +118,8 @@ github.com/caoyongzheng/libdns-godaddy v0.0.0-20200825153403-a0e2209b813a h1:JgQ
 github.com/caoyongzheng/libdns-godaddy v0.0.0-20200825153403-a0e2209b813a/go.mod h1:PPKm1zOjedSTMrhg2zywTNMfWmR4FvYaqqKtHO2hTeA=
 github.com/caoyongzheng/libdns-godaddy v0.0.0-20200825154710-4b16fcb5af4e h1:aHbRlGGW1Qka3FYxNSTp8UL1zapY+HZ7BxueJqvvY1o=
 github.com/caoyongzheng/libdns-godaddy v0.0.0-20200825154710-4b16fcb5af4e/go.mod h1:PPKm1zOjedSTMrhg2zywTNMfWmR4FvYaqqKtHO2hTeA=
+github.com/caoyongzheng/libdns-godaddy v0.0.0-20200825162648-51ac38596fbc h1:Gl/2hfe7cmZ9QhbMnLw82ck/btGvvwSTTdSKCj86lHc=
+github.com/caoyongzheng/libdns-godaddy v0.0.0-20200825162648-51ac38596fbc/go.mod h1:PPKm1zOjedSTMrhg2zywTNMfWmR4FvYaqqKtHO2hTeA=
 github.com/cenkalti/backoff/v4 v4.0.0 h1:6VeaLF9aI+MAUQ95106HwWzYZgJJpZ4stumjj6RFYAU=
 github.com/cenkalti/backoff/v4 v4.0.0/go.mod h1:eEew/i+1Q6OrCDZh3WiXYv3+nJwBASZ8Bog/87DQnVg=
 github.com/census-instrumentation/opencensus-proto v0.2.0/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
