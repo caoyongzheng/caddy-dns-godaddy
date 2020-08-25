@@ -3,11 +3,11 @@ package godaddy
 import (
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
-	godaddy "github.com/caoyongzheng/libdns-godaddy"
+	godaddyDNS "github.com/caoyongzheng/libdns-godaddy"
 )
 
 // Provider wraps the provider implementation as a Caddy module.
-type Provider struct{ *godaddy.Provider }
+type Provider struct{ *godaddyDNS.Provider }
 
 func init() {
 	caddy.RegisterModule(Provider{})
@@ -17,7 +17,7 @@ func init() {
 func (Provider) CaddyModule() caddy.ModuleInfo {
 	return caddy.ModuleInfo{
 		ID:  "dns.providers.godaddy",
-		New: func() caddy.Module { return &Provider{new(godaddy.Provider)} },
+		New: func() caddy.Module { return &Provider{new(godaddyDNS.Provider)} },
 	}
 }
 
